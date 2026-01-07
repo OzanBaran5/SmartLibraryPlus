@@ -21,7 +21,7 @@ Bir üniversitenin kütüphane sistemini modernize etmek amacıyla geliştirilen
 Projenin temel hedefleri:
 * İlişkisel veritabanı yönetimini (RDBMS) nesne yönelimli olarak gerçekleştirmek.
 * **DAO (Data Access Object)** tasarım desenini uygulamak.
-* **Entity-Relationship** yapılarını (`@OneToMany`, `@OneToOne`) doğru kurgulamak.
+* **Entity-Relationship** yapılarını (`@ManyToOne`, `@OneToMany`, `@OneToOne`) doğru kurgulamak.
 * **CRUD** (Ekleme, Okuma, Güncelleme, Silme) operasyonlarını yönetmek.
 
 ---
@@ -51,4 +51,5 @@ SmartLibraryPlus/
 ├── src/main/resources/
 │   ├── hibernate.cfg.xml   # Veritabanı ve Hibernate ayarları
 │   └── simplelogger.properties # Log temizleme ayarları
+
 └── pom.xml         # Maven bağımlılık yönetimi
